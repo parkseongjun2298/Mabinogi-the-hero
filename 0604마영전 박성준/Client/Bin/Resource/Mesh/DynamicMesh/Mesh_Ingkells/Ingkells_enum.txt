@@ -1,0 +1,31 @@
+
+0	taunt			도발
+1	damage_to_taunt		도발중 데미지 입음
+2	down_end		다운끝(일어나는모션)
+3	down_begin		다운시작
+4	down_during		다운중
+5	turn_right		오른쪽으로 도는 모션
+6	turn_left		왼쪽으로 도는모션
+7	run			달리기
+8	weakpoint_broken	부분파괴부위 파괴되는 상태
+9	low_hp			피 낮을때 헉헉대는거
+10	dying_front		죽는모션
+11	damage_weak_top		??
+12	damage_weak_bottom	??
+13	blind_during		눈뻥 상태중
+14	blind_begin		플레이어가 폭탄(섬광탄)을 던져서 터지면 눈뻥
+15	threat			위협 : 보스 2페이즈 분노상태 가기전에 하면좋을듯
+16	whirlwind		힐윈드
+17	turnright_atk		(보스기준 오른편에서 때리면 오른쪽으로 돌면서 1타 공격하는 모션)
+18	turnleft_atk		(보스기준 왼편에서 때리다보면 왼쪽으로 돌면서 1타 공격하는 모션)
+19	rage_swordwave_end	(분노상태 소드웨이브 2타 end)
+20	rage_swordwave_begin	(분노상태에서는 소드웨이브 2번씀 그중 begin)
+21	swordwave		내려찍기 검 충격파
+22	swing_triple		3연타
+23	thrust_to_whirlwind	돌진찌르기후 힐윈드
+24	doublesmash		2연타 스매시
+25	Idle			아이들 상태
+26	cutscene_2		보스등장 두번째 컷씬
+27	cutscene_1		보스등장 첫번째 컷씬
+28	Pierce			찌르기
+29	triple_combo		3타 마지막

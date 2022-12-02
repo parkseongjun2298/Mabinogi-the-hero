@@ -1,0 +1,34 @@
+﻿  AniCtrl.cpp
+c:\users\박성준\desktop\0602 오후7시\engine\resources\code\AniCtrl.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Defines.h': No such file or directory
+  Cell.cpp
+c:\users\박성준\desktop\0602 오후7시\engine\resources\code\Cell.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Defines.h': No such file or directory
+  CubeTex.cpp
+c:\users\박성준\desktop\0602 오후7시\engine\resources\code\Resources.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Base.h': No such file or directory
+  DynamicMesh.cpp
+c:\users\박성준\desktop\0602 오후7시\engine\resources\code\Resources.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Base.h': No such file or directory
+  HierarchyLoader.cpp
+c:\users\박성준\desktop\0602 오후7시\engine\resources\code\HierarchyLoader.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Defines.h': No such file or directory
+  Line.cpp
+c:\users\박성준\desktop\0602 오후7시\engine\resources\code\Line.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Defines.h': No such file or directory
+  Mesh.cpp
+c:\users\박성준\desktop\0602 오후7시\engine\resources\code\Resources.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Base.h': No such file or directory
+  NaviMesh.cpp
+c:\users\박성준\desktop\0602 오후7시\engine\resources\code\Resources.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Base.h': No such file or directory
+  RcTex.cpp
+c:\users\박성준\desktop\0602 오후7시\engine\resources\code\Resources.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Base.h': No such file or directory
+  RcTexLeft.cpp
+c:\users\박성준\desktop\0602 오후7시\engine\resources\code\Resources.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Base.h': No such file or directory
+  Resources.cpp
+c:\users\박성준\desktop\0602 오후7시\engine\resources\code\Resources.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Base.h': No such file or directory
+  ResourcesMgr.cpp
+c:\users\박성준\desktop\0602 오후7시\engine\resources\code\ResourcesMgr.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Engine_Defines.h': No such file or directory
+  StaticMesh.cpp
+c:\users\박성준\desktop\0602 오후7시\engine\resources\code\Resources.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Base.h': No such file or directory
+  TerrainTex.cpp
+c:\users\박성준\desktop\0602 오후7시\engine\resources\code\Resources.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Base.h': No such file or directory
+  Texture.cpp
+c:\users\박성준\desktop\0602 오후7시\engine\resources\code\Resources.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Base.h': No such file or directory
+  TriCol.cpp
+c:\users\박성준\desktop\0602 오후7시\engine\resources\code\Resources.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Base.h': No such file or directory
+  VIBuffer.cpp
+c:\users\박성준\desktop\0602 오후7시\engine\resources\code\Resources.h(4): fatal error C1083: 포함 파일을 열 수 없습니다. 'Base.h': No such file or directory

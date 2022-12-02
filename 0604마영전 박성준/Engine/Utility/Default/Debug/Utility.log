@@ -1,0 +1,77 @@
+﻿  Transform.cpp
+  SoundMgr.cpp
+  Shader.cpp
+  Scene.cpp
+  Renderer.cpp
+  QuadTree.cpp
+  PrototypeMgr.cpp
+  Optimization.cpp
+  Management.cpp
+d:\git\ddd\mabinogi-the-hero\0604마영전 박성준\engine\utility\code\management.cpp(24): warning C4305: '인수': 'double'에서 'const Engine::_float'(으)로 잘립니다.
+  LightMgr.cpp
+  Light.cpp
+  Layer.cpp
+  KeyMgr.cpp
+  GameObject.cpp
+  Frustum.cpp
+  Component.cpp
+  Collider2.cpp
+  Collider.cpp
+  Camera.cpp
+  Calculator.cpp
+  코드를 생성하고 있습니다...
+     ../Bin\Utility.lib 라이브러리 및 ../Bin\Utility.exp 개체를 생성하고 있습니다.
+  Utility.vcxproj -> D:\Git\ddd\Mabinogi-the-hero\0604마영전 박성준\Engine\Utility\Default\../Bin\Utility.dll
+  Utility.vcxproj -> ../Bin\Utility.pdb (Full PDB)
+  .\Engine\Utility\Code\Calculator.h
+  .\Engine\Utility\Code\Camera.h
+  .\Engine\Utility\Code\Collider.h
+  .\Engine\Utility\Code\Collider2.h
+  .\Engine\Utility\Code\Component.h
+  .\Engine\Utility\Code\fmod.h
+  .\Engine\Utility\Code\fmod_codec.h
+  .\Engine\Utility\Code\fmod_dsp.h
+  .\Engine\Utility\Code\fmod_errors.h
+  .\Engine\Utility\Code\fmod_memoryinfo.h
+  .\Engine\Utility\Code\fmod_output.h
+  .\Engine\Utility\Code\Frustum.h
+  .\Engine\Utility\Code\GameObject.h
+  .\Engine\Utility\Code\KeyMgr.h
+  .\Engine\Utility\Code\Layer.h
+  .\Engine\Utility\Code\Light.h
+  .\Engine\Utility\Code\LightMgr.h
+  .\Engine\Utility\Code\Management.h
+  .\Engine\Utility\Code\Optimization.h
+  .\Engine\Utility\Code\PrototypeMgr.h
+  .\Engine\Utility\Code\QuadTree.h
+  .\Engine\Utility\Code\Renderer.h
+  .\Engine\Utility\Code\Scene.h
+  .\Engine\Utility\Code\Shader.h
+  .\Engine\Utility\Code\SoundMgr.h
+  .\Engine\Utility\Code\Transform.h
+         26개 파일이 복사되었습니다.
+  .\Engine\Utility\Code\fmod.hpp
+  .\Engine\Utility\Code\Shader_Base.hpp
+  .\Engine\Utility\Code\Shader_Mesh.hpp
+  .\Engine\Utility\Code\Shader_Sample.hpp
+  .\Engine\Utility\Code\Shader_Terrain.hpp
+  .\Engine\Utility\Code\Shader_Trail.hpp
+  .\Engine\Utility\Code\Shader_Ui.hpp
+          7개 파일이 복사되었습니다.
+          1개 파일이 복사되었습니다.
+          1개 파일이 복사되었습니다.
+  .\Engine\Header\Engine_Defines.h
+  .\Engine\Header\Engine_Enum.h
+  .\Engine\Header\Engine_Function.h
+  .\Engine\Header\Engine_Macro.h
+  .\Engine\Header\Engine_Struct.h
+  .\Engine\Header\Engine_Typedef.h
+  .\Engine\Header\Export_Function.h
+  .\Engine\Header\Export_Resources.h
+  .\Engine\Header\Export_System.h
+  .\Engine\Header\Export_Utility.h
+         10개 파일이 복사되었습니다.
+  .\Engine\Header\Export_Resources.inl
+  .\Engine\Header\Export_System.inl
+  .\Engine\Header\Export_Utility.inl
+          3개 파일이 복사되었습니다.

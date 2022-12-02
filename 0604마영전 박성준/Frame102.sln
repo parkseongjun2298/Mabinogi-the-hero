@@ -1,0 +1,100 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00. Client", "00. Client", "{C33FB5AA-9BFC-44BC-87FE-F57421502EBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Engine", "01. Engine", "{E8FEB2C6-28A2-40AB-842F-D6E8C1370C27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Base", "02. Base", "{F2141B86-CE5F-448A-88F0-14B0D0E6E32B}"
+	ProjectSection(SolutionItems) = preProject
+		Base\Base.h = Base\Base.h
+		Base\Base.inl = Base\Base.inl
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Client", "Client\Default\Client.vcxproj", "{742B0255-9E98-4BAB-B264-73A1A80D404D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{751B1A2F-9F33-4088-988C-FCAF9AEEBD33} = {751B1A2F-9F33-4088-988C-FCAF9AEEBD33}
+		{81E11799-474B-4FC7-BD6D-14E1152FB8EC} = {81E11799-474B-4FC7-BD6D-14E1152FB8EC}
+		{A1F949EE-F679-4A20-BE3E-1C862F1D70E3} = {A1F949EE-F679-4A20-BE3E-1C862F1D70E3}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00. System", "00. System", "{3A790F67-633E-4F31-9D10-A6E8FC76C0A3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "System", "Engine\System\Default\System.vcxproj", "{A1F949EE-F679-4A20-BE3E-1C862F1D70E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Header", "03. Header", "{25AA309A-CC91-473B-B325-7C48A95B33DB}"
+	ProjectSection(SolutionItems) = preProject
+		Engine\Header\Engine_Defines.h = Engine\Header\Engine_Defines.h
+		Engine\Header\Engine_Enum.h = Engine\Header\Engine_Enum.h
+		Engine\Header\Engine_Function.h = Engine\Header\Engine_Function.h
+		Engine\Header\Engine_Macro.h = Engine\Header\Engine_Macro.h
+		Engine\Header\Engine_Struct.h = Engine\Header\Engine_Struct.h
+		Engine\Header\Engine_Typedef.h = Engine\Header\Engine_Typedef.h
+		Engine\Header\Export_Function.h = Engine\Header\Export_Function.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Resources", "02. Resources", "{759E44AD-E952-413B-B74F-13A3A8E0C3F8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Resources", "Engine\Resources\Include\Resources.vcxproj", "{751B1A2F-9F33-4088-988C-FCAF9AEEBD33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Utility", "01. Utility", "{2C8ACD5D-0AEF-44BB-B12F-818BEF5C92ED}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Utility", "Engine\Utility\Default\Utility.vcxproj", "{81E11799-474B-4FC7-BD6D-14E1152FB8EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{742B0255-9E98-4BAB-B264-73A1A80D404D}.Debug|x64.ActiveCfg = Debug|x64
+		{742B0255-9E98-4BAB-B264-73A1A80D404D}.Debug|x64.Build.0 = Debug|x64
+		{742B0255-9E98-4BAB-B264-73A1A80D404D}.Debug|x86.ActiveCfg = Debug|Win32
+		{742B0255-9E98-4BAB-B264-73A1A80D404D}.Debug|x86.Build.0 = Debug|Win32
+		{742B0255-9E98-4BAB-B264-73A1A80D404D}.Release|x64.ActiveCfg = Release|x64
+		{742B0255-9E98-4BAB-B264-73A1A80D404D}.Release|x64.Build.0 = Release|x64
+		{742B0255-9E98-4BAB-B264-73A1A80D404D}.Release|x86.ActiveCfg = Release|Win32
+		{742B0255-9E98-4BAB-B264-73A1A80D404D}.Release|x86.Build.0 = Release|Win32
+		{A1F949EE-F679-4A20-BE3E-1C862F1D70E3}.Debug|x64.ActiveCfg = Debug|x64
+		{A1F949EE-F679-4A20-BE3E-1C862F1D70E3}.Debug|x64.Build.0 = Debug|x64
+		{A1F949EE-F679-4A20-BE3E-1C862F1D70E3}.Debug|x86.ActiveCfg = Debug|Win32
+		{A1F949EE-F679-4A20-BE3E-1C862F1D70E3}.Debug|x86.Build.0 = Debug|Win32
+		{A1F949EE-F679-4A20-BE3E-1C862F1D70E3}.Release|x64.ActiveCfg = Release|x64
+		{A1F949EE-F679-4A20-BE3E-1C862F1D70E3}.Release|x64.Build.0 = Release|x64
+		{A1F949EE-F679-4A20-BE3E-1C862F1D70E3}.Release|x86.ActiveCfg = Release|Win32
+		{A1F949EE-F679-4A20-BE3E-1C862F1D70E3}.Release|x86.Build.0 = Release|Win32
+		{751B1A2F-9F33-4088-988C-FCAF9AEEBD33}.Debug|x64.ActiveCfg = Debug|x64
+		{751B1A2F-9F33-4088-988C-FCAF9AEEBD33}.Debug|x64.Build.0 = Debug|x64
+		{751B1A2F-9F33-4088-988C-FCAF9AEEBD33}.Debug|x86.ActiveCfg = Debug|Win32
+		{751B1A2F-9F33-4088-988C-FCAF9AEEBD33}.Debug|x86.Build.0 = Debug|Win32
+		{751B1A2F-9F33-4088-988C-FCAF9AEEBD33}.Release|x64.ActiveCfg = Release|x64
+		{751B1A2F-9F33-4088-988C-FCAF9AEEBD33}.Release|x64.Build.0 = Release|x64
+		{751B1A2F-9F33-4088-988C-FCAF9AEEBD33}.Release|x86.ActiveCfg = Release|Win32
+		{751B1A2F-9F33-4088-988C-FCAF9AEEBD33}.Release|x86.Build.0 = Release|Win32
+		{81E11799-474B-4FC7-BD6D-14E1152FB8EC}.Debug|x64.ActiveCfg = Debug|x64
+		{81E11799-474B-4FC7-BD6D-14E1152FB8EC}.Debug|x64.Build.0 = Debug|x64
+		{81E11799-474B-4FC7-BD6D-14E1152FB8EC}.Debug|x86.ActiveCfg = Debug|Win32
+		{81E11799-474B-4FC7-BD6D-14E1152FB8EC}.Debug|x86.Build.0 = Debug|Win32
+		{81E11799-474B-4FC7-BD6D-14E1152FB8EC}.Release|x64.ActiveCfg = Release|x64
+		{81E11799-474B-4FC7-BD6D-14E1152FB8EC}.Release|x64.Build.0 = Release|x64
+		{81E11799-474B-4FC7-BD6D-14E1152FB8EC}.Release|x86.ActiveCfg = Release|Win32
+		{81E11799-474B-4FC7-BD6D-14E1152FB8EC}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{742B0255-9E98-4BAB-B264-73A1A80D404D} = {C33FB5AA-9BFC-44BC-87FE-F57421502EBA}
+		{3A790F67-633E-4F31-9D10-A6E8FC76C0A3} = {E8FEB2C6-28A2-40AB-842F-D6E8C1370C27}
+		{A1F949EE-F679-4A20-BE3E-1C862F1D70E3} = {3A790F67-633E-4F31-9D10-A6E8FC76C0A3}
+		{25AA309A-CC91-473B-B325-7C48A95B33DB} = {E8FEB2C6-28A2-40AB-842F-D6E8C1370C27}
+		{759E44AD-E952-413B-B74F-13A3A8E0C3F8} = {E8FEB2C6-28A2-40AB-842F-D6E8C1370C27}
+		{751B1A2F-9F33-4088-988C-FCAF9AEEBD33} = {759E44AD-E952-413B-B74F-13A3A8E0C3F8}
+		{2C8ACD5D-0AEF-44BB-B12F-818BEF5C92ED} = {E8FEB2C6-28A2-40AB-842F-D6E8C1370C27}
+		{81E11799-474B-4FC7-BD6D-14E1152FB8EC} = {2C8ACD5D-0AEF-44BB-B12F-818BEF5C92ED}
+	EndGlobalSection
+EndGlobal
